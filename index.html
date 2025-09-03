@@ -1,0 +1,119 @@
+<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khama Evidence Mandala - Professional Portfolio</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter,Segoe UI,Roboto,system-ui,Arial;color:#e6e9ef;background:#0f1724}
+    .wrapper{max-width:1100px;margin:40px auto;padding:32px;background:linear-gradient(180deg,#0f1724 0%, #121826 100%);border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6);position:relative;overflow:hidden}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .logo{color:#fff;font-weight:700;letter-spacing:1px;font-size:20px}
+    nav ul{list-style:none;display:flex;gap:18px}
+    nav a{text-decoration:none;color:rgba(255,255,255,0.75);font-weight:600;padding:6px 10px;border-radius:6px}
+    nav a:hover{color:#fff;background:rgba(255,255,255,0.03)}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;margin-top:28px}
+    .hero-left{padding-right:10px}
+    .eyebrow{display:flex;gap:8px;align-items:center;margin-bottom:18px}
+    .dot{width:9px;height:9px;border-radius:50%;background:#e879f9;display:inline-block}
+    h1{font-size:28px;color:#fff;margin-bottom:12px}
+    h1 .name{display:block;font-size:36px;margin-top:6px}
+    p.lead{color:rgba(255,255,255,0.7);line-height:1.6}
+    .cta{margin-top:18px;display:flex;gap:12px;align-items:center}
+    .btn{padding:10px 18px;border-radius:8px;font-weight:700;border:none;cursor:pointer}
+    .btn-primary{background:#ef4444;color:#fff}
+    .btn-play{display:inline-flex;align-items:center;gap:10px;background:transparent;border:2px solid rgba(255,255,255,0.06);color:#fff;padding:8px 12px}
+    .btn-play .circle{width:34px;height:34px;border-radius:50%;background:#ef4444;display:inline-grid;place-items:center}
+    .hero-right{display:flex;justify-content:center}
+    .profile{width:320px;height:320px;border-radius:18px;background:#0b1220;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .profile img{width:100%;height:100%;object-fit:cover}
+    .watermark{position:absolute;right:-60px;top:40%;font-size:120px;color:rgba(255,255,255,0.02);transform:rotate(-10deg);pointer-events:none}
+    .services{margin-top:36px;padding-top:18px;border-top:1px dashed rgba(255,255,255,0.03)}
+    .services h3{text-align:center;color:#fff;margin-bottom:18px}
+    .cards{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;min-width:200px;max-width:260px;text-align:left}
+    .card h4{color:#fff;margin-bottom:6px}
+    .card p{color:rgba(255,255,255,0.7);font-size:14px}
+    footer{margin-top:28px;text-align:center;color:rgba(255,255,255,0.5);font-size:13px;padding-bottom:6px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.hero-right{order:-1;margin-bottom:18px}.profile{width:220px;height:220px}.watermark{display:none}}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">Khama Evidence Mandala</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">
+          <span class="dot"></span>
+          <span class="dot" style="background:#60a5fa"></span>
+          <span class="dot" style="background:#34d399"></span>
+        </div>
+        <h1>Hello, I'm <span class="name">Khama Evidence Mandala</span></h1>
+        <p class="lead">Diploma holder in Professional Computing and Information Systems with hands-on experience in data management, IT support, virtual assistance, network support, and graphic design. Certified in Cybersecurity, Data Protection, CRM, and AI. Dedicated to delivering reliable, efficient, and innovative solutions.</p>
+        <div class="cta">
+          <button class="btn btn-primary" onclick="scrollToSection('services')">My Services</button>
+          <button class="btn btn-play" onclick="playIntro()">
+            <span class="circle">▶</span>
+            Watch Intro
+          </button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile">
+          <img src="D:\website/khama.jpeg" alt="profile">
+        </div>
+      </div>
+      <div class="watermark">Khama</div>
+    </section>
+
+    <section id="services" class="services">
+      <h3>My Services</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>IT Support</h4>
+          <p>Comprehensive system support, troubleshooting, and systems management to keep your operations running smoothly.</p>
+        </div>
+        <div class="card">
+          <h4>Data Management</h4>
+          <p>Accurate and secure data collection, organization, and analysis tailored to your needs.</p>
+        </div>
+        <div class="card">
+          <h4>Graphic Design & Digital Solutions</h4>
+          <p>Creative designs and digital marketing strategies that enhance your brand presence.</p>
+        </div>
+		<div class="card">
+          <h4>programming</h4>
+          <p>creative programmer with knowledge in python progrqamming language, java script and all used in front and development</p>
+		</div>
+				<div class="card">
+          <h4>programming</h4>
+          <p>creative programmer with knowledge in python progrqamming language, java script and all used in front and development</p>
+		</div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Khama Evidence Mandala — Professional Computing and Information Systems
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function scrollToSection(id){const el=document.getElementById(id);if(el) el.scrollIntoView({behavior:'smooth'});}
+    function playIntro(){alert('Intro video placeholder. Add your personal video here.');}
+  </script>
+</body>
+</html>
