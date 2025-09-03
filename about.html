@@ -1,0 +1,113 @@
+<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Khama Evidence Mandala</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter,Segoe UI,Roboto,system-ui,Arial;color:#e6e9ef;background:#0f1724}
+    .container{max-width:1000px;margin:40px auto;padding:28px;background:#121826;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.5)}
+    a{color:#ef4444;text-decoration:none}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    .brand{font-weight:700;font-size:18px;color:#fff}
+    nav a{margin-left:14px;color:#cbd5e1;font-weight:600}
+    nav a:hover{color:#fff}
+    h1,h3{color:#fff}
+    p.lead{color:#cbd5e1;line-height:1.6}
+    .card{background:#1e293b;border:1px solid #334155;padding:18px;border-radius:10px;color:#e2e8f0}
+    .meta{margin-bottom:12px;color:#94a3b8}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .chip{background:#334155;padding:8px 10px;border-radius:999px;font-weight:600;color:#e2e8f0}
+    .section{margin-top:32px;padding:20px;background:#0f1724;border:1px solid #1e293b;border-radius:8px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    ul.skills{list-style:none;padding-left:0}
+    ul.skills li{background:#334155;padding:8px;border-radius:8px;margin-bottom:8px;color:#e2e8f0}
+    footer{margin-top:24px;text-align:center;color:#64748b;font-size:13px}
+    @media (max-width:900px){.two-col{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">Khama Evidence Mandala</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about_khama.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h1>About Me</h1>
+      <p class="lead">I am <strong>Khama Evidence Mandala</strong>, a Diploma holder in Professional Computing and Information Systems based in Blantyre, Malawi. I have practical experience in data collection and management, IT support, virtual assistance, network support, and graphic design. I enjoy solving problems with technology and helping organisations manage and protect their information.</p>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="meta">Location: Blantyre, Malawi</div>
+        <div class="meta">Email: <a href="mailto:khamamandala@gmail.com">khamamandala@gmail.com</a></div>
+        <div class="meta">LinkedIn: <a href="https://linkedin.com/in/khama-mandala-7b4b8732a" target="_blank">linkedin.com/in/khama-mandala-7b4b8732a</a></div>
+        <div class="chips">
+          <span class="chip">Diploma — Professional Computing & Information Systems</span>
+          <span class="chip">Cybersecurity • Data Protection • AI</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>What I Do</h3>
+      <p class="lead">I support organisations with data-driven workflows, IT infrastructure, and simple digital products. My work includes:</p>
+      <ul>
+        <li>Data collection & cleaning (surveys, forms, spreadsheets)</li>
+        <li>Data entry and database maintenance</li>
+        <li>IT support: troubleshooting, system setup, network assistance</li>
+        <li>Virtual assistance and reporting</li>
+        <li>Graphic design for print and digital use</li>
+      </ul>
+    </section>
+
+    <section class="section two-col">
+      <div>
+        <h3>Experience</h3>
+        <p class="meta"><strong>God's Grace Academy</strong> — Internship (July 2024 — present)</p>
+        <p>Responsibilities include data collection, management, virtual assistance, surveys, reception, system and network support.</p>
+
+        <p class="meta"><strong>Zikomo Stationary</strong> — Part-time (May 2025 — present)</p>
+        <p>Typing, printing, customer service, report writing, and graphic design for print materials.</p>
+      </div>
+
+      <div>
+        <h3>Education & Certifications</h3>
+        <p class="meta"><strong>Diploma</strong> — Professional Computing & Information Systems, MUBAS (Institute of Continuing Education)</p>
+        <p class="meta"><strong>MSCE</strong> — Khongoloni Community Day Secondary School (2022/2023)</p>
+        <ul class="skills">
+          <li>Introduction to Customer Relation Management (Coursera, 2025)</li>
+          <li>Cybersecurity, Data Protection, Cybercrime & AI (Unicaf University, 2025)</li>
+          <li>Getting Started with Microsoft Excel (2025)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Highlighted Projects</h3>
+      <ul>
+        <li><strong>POS (till) System (Python)</strong> — Built a small point-of-sale solution using a database backend, barcode input and calculator utilities.</li>
+        <li><strong>Data Processing & OCR Workflows</strong> — Converting scanned documents (PNG) into Word with clean formatting and quality checks.</li>
+        <li><strong>Excel Automation</strong> — Data entry templates, validation, and basic visualizations for reporting.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>If you'd like to work together or discuss a project, email me at <a href="mailto:khamamandala@gmail.com">khamamandala@gmail.com</a> or visit my LinkedIn profile: <a href="https://linkedin.com/in/khama-mandala-7b4b8732a" target="_blank">linkedin.com/in/khama-mandala-7b4b8732a</a>.</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Khama Evidence Mandala — Professional Computing and Information Systems</p>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
